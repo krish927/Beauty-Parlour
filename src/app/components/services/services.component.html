@@ -11,7 +11,7 @@
                         <div class="col-4">
                             <div class="p-3 single-service">
                                 <div class="ss-img">
-                                    <img src="assets/images/second1.png" alt="">
+                                    <img src="assets/images/services/service1.png" alt="">
                                 </div>
                                 <div class="ss-details">
                                     <h4>Face Scrub</h4>
@@ -23,7 +23,7 @@
                           <div class="col-4">
                             <div class="p-3 single-service">
                                 <div class="ss-img">
-                                    <img src="assets/images/second1.png" alt="">
+                                    <img src="assets/images/services/service2.png" alt="">
                                 </div>
                                 <div class="ss-details">
                                     <h4>Face Scrub</h4>
@@ -35,7 +35,7 @@
                           <div class="col-4">
                             <div class="p-3 single-service">
                                 <div class="ss-img">
-                                    <img src="assets/images/second1.png" alt="">
+                                    <img src="assets/images/services/service3.png" alt="">
                                 </div>
                                 <div class="ss-details">
                                     <h4>Face Scrub</h4>
@@ -47,7 +47,7 @@
                           <div class="col-4">
                             <div class="p-3 single-service">
                                 <div class="ss-img">
-                                    <img src="assets/images/second1.png" alt="">
+                                    <img src="assets/images/services/service4.png" alt="">
                                 </div>
                                 <div class="ss-details">
                                     <h4>Face Scrub</h4>
@@ -59,7 +59,7 @@
                           <div class="col-4">
                             <div class="p-3 single-service">
                                 <div class="ss-img">
-                                    <img src="assets/images/second1.png" alt="">
+                                    <img src="assets/images/services/service5.png" alt="">
                                 </div>
                                 <div class="ss-details">
                                     <h4>Face Scrub</h4>
@@ -71,7 +71,7 @@
                           <div class="col-4">
                             <div class="p-3 single-service">
                                 <div class="ss-img">
-                                    <img src="assets/images/second1.png" alt="">
+                                    <img src="assets/images/services/service6.png" alt="">
                                 </div>
                                 <div class="ss-details">
                                     <h4>Face Scrub</h4>
@@ -84,4 +84,56 @@
                     </ng-container>
                 </div>
               </div>
+</section>
+<section class="membership">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="membership-form">
+                    <form [formGroup]="membershipForm">
+                        <div class="row">
+                            <div class="col">
+                              <input type="text" class="form-control" formControlName="firstName" placeholder="First Name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" formControlName="lastName" placeholder="Last Name" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="email" class="form-control" formControlName="email" placeholder="Email" aria-label="Email">
+                              </div>
+                              <div class="col">
+                                <input type="text" class="form-control" formControlName="number" placeholder="Number" aria-label="Number">
+                              </div>
+                            </div>
+                        <div class="row">
+                            <div class="col">
+                            <textarea name="" id="" cols="30" rows="5" placeholder="Message" formControlName="message"></textarea>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <button class="btn myBtn" (click)="membershipSubmit()">Join Membership <img src="assets/images/arrow.png" alt=""></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="membership-content">
+                    <h4>Join Membership</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis sed sapien in pretium. Donec tincidunt, quam vestibulum ultricies.</p>
+                    <ul>
+                        <li><img src="assets/images/listtick.png" alt="">Cnsectetur adipiscing elit.</li>
+                        <li><img src="assets/images/listtick.png" alt="">Proin lobortis sed sapien.</li>
+                        <li><img src="assets/images/listtick.png" alt="">Donec tincidunt, quam.</li>
+                        <li><img src="assets/images/listtick.png" alt="">dolor sem laoreet orci, quis.</li>
+                        <li><img src="assets/images/listtick.png" alt="">Vestibulum ipsum tortor.</li>
+                    </ul>
+                    <h4>Membership Benefits</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis erat posuere, tincidunt sem at, sagittis dolor. Sed malesuada orci erat, ut interdum lorem rhoncus eu.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

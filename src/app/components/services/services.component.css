@@ -94,3 +94,108 @@ text-align: right;
 border-bottom: 2px solid #319E48;
 color: #319E48;
 }
+
+.membership{
+    padding-block: 10%;
+    background: #FDF5F3;
+}
+
+.membership-form{
+    background: #023A15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.membership-form form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.membership-form input, .membership-form textarea {
+    background: transparent;
+    border: 1px solid white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170.02%;
+    /* identical to box height, or 31px */
+    color: #EDEDED;
+}
+.membership-form textarea{
+    width: 100%;
+    resize: none;
+}
+.membership-form textarea::placeholder{
+    color: #EDEDED;
+}
+.membership-form input::placeholder{
+    color: #EDEDED;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170.02%;
+
+}
+.myBtn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170.02%;
+    /* or 27px */
+    padding: 15px 30px;
+    color: #023A15;
+    background: #FFFFFF;
+    border-radius: 60px;
+    width: fit-content;
+    margin-inline: auto;
+}
+.myBtn img{
+    margin-left: 5px;
+}
+
+.membership-content h4{
+    font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 126.52%;
+/* or 96px */
+
+color: #023A15;
+}
+
+.membership-content p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 170.02%;
+/* or 31px */
+
+color: #567C49;
+}
+
+.membership-content ul{
+    list-style: none;
+    padding: 0;
+    margin-block: 40px;
+}
+
+.membership-content ul li{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 170.02%;
+/* identical to box height, or 31px */
+color: #567C49;
+}
+
+.membership-content ul li img{
+    margin-right: 10px;
+}

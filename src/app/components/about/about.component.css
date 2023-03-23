@@ -1,0 +1,93 @@
+.specialist{
+    padding-block: 5% 10%;
+    background: #FDF5F3;
+}
+.specialist-content h4{
+    font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 76px;
+line-height: 126.52%;
+/* or 96px */
+margin-bottom: 30px;
+color: #023A15;
+}
+.specialist-content p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 170.02%;
+/* or 31px */
+
+margin-bottom: 40px;
+color: #567C49;
+}
+
+.myBtn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170.02%;
+    /* or 27px */
+    padding: 20px 40px;
+    color: #FFFFFF;
+    background:  #023A15;
+    border-radius: 60px;
+}
+.myBtn img{
+    margin-left: 5px;
+}
+
+.single-specialist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-block: 20%;
+}
+.specialist-img img{
+    width: 100%;
+}
+.specialist-details{
+    width: 80%;
+    background: #FFFFFF;
+    padding: 20px 40px;
+    position: absolute;
+    bottom: -25%;
+    text-align: center;
+}
+.specialist-details p{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 126.52%;
+    /* or 51px */
+    text-align: center;
+    color: #023A15;
+    margin-bottom: 12px;
+}
+.specialist-details span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170.02%;
+    /* identical to box height, or 31px */
+    text-align: center;
+    color: #567C49;
+}
+.specialist-details ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin-inline: auto;
+    margin-top: 24px;
+
+}
