@@ -1,0 +1,60 @@
+<section class="top-footer">
+    <div class="container">
+        <div class="row">
+            <div class="top-footer-text">
+                <h1>Get the latest update about our products and services</h1>
+            </div>
+            <form [formGroup]="subscribeForm" class="sub-form">
+
+            <div class="tf-subscribe">
+                <input type="email" placeholder="Your Email" formControlName="email">
+                <button class="btn" (click)="subscribe()">SUBSCRIBE <img src="assets/images/arrow.png" alt=""></button>
+            </div>
+            
+            <p class="error" *ngIf="subscribeForm.get('email')?.hasError('required') && (subscribeForm.get('email')?.touched || submitted)">*Email is required</p>
+        </form>
+
+        </div>
+    </div>
+</section>
+<section class="bottom-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="footer-col-1">
+                <img src="assets/images/footerlogo.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis sed sapien in pretium. </p>
+                <ul>
+                    <ng-container *ngFor="let socialLink of socialLinks">
+                        <li>
+                            <img src={{socialLink}} alt="">
+                        </li>
+                    </ng-container>
+                </ul>
+            </div>
+            </div>
+            <div class="col-md-1"></div>
+            <ng-container *ngFor="let footerLink of footerLinks">
+                <div class="col-md-2">
+                    <div class="footer-links">
+                        <p>{{footerLink.title}}</p>
+                        <ul>
+                            <ng-container *ngFor="let link of footerLink.links">
+                                <li routerLink={{link.link}}>{{link.title}}</li>
+                            </ng-container>
+                        </ul>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</section>
+<section class="copy">
+    <div class="container">
+            <div class="row">
+                <div class="copy-right">
+                    <p>Copyright © 2022 Clor</p>
+                </div>
+            </div>
+    </div>
+</section>

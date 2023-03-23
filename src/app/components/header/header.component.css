@@ -1,0 +1,10 @@
+a{
+    color: white;
+}
+.head{
+    background: #023A15;
+    padding-block: 10px;
+}
+.navbar-nav{
+    column-gap: 15px;
+}
