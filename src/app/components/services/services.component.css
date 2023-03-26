@@ -91,8 +91,8 @@ line-height: 170.02%;
 /* or 27px */
 padding-bottom: 5spx;
 text-align: right;
-border-bottom: 2px solid #319E48;
-color: #319E48;
+border-bottom: 2px solid #E2C305;;
+color: #E2C305;
 }
 
 .membership{
@@ -101,7 +101,7 @@ color: #319E48;
 }
 
 .membership-form{
-    background: #023A15;
+    background: #E2C305;
     display: flex;
     justify-content: center;
     align-items: center;

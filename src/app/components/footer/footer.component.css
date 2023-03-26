@@ -1,5 +1,5 @@
 .top-footer{
-    background: rgba(2, 58, 21, 0.7);
+    background: rgba(226 195 5 / 71%);
     padding-block: 10%;
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@
     margin-left: 10px;
 }
 .bottom-footer{
-    background: #023A15;
+    background: #E2C305;
     padding-block: 10%;
 }
 .footer-col-1 p{
@@ -139,7 +139,7 @@ width: 100%;
     bottom: -50px;
 }
 .copy{
-    background: #023A15;
+    background: #E2C305;
 }
 .copy-right{
 padding-block: 30px;

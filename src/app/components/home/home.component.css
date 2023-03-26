@@ -1,5 +1,5 @@
 .top{
-    background: #023A15;
+    background: #E2C305;
     padding-block: 5%;
 }
 .top-content{
@@ -106,7 +106,7 @@ margin-bottom: 10px;
 
 .our-products{
     padding-block: 5%;
-    background: #023A15;
+    background: #E2C305;
 }
 .op-content h4{
     font-family: 'Cormorant';
@@ -151,7 +151,7 @@ color: #FFFFFF;
 }
 .story-box{
     /* position: absolute; */
-    background: #023A15;
+    background: #E2C305;
     padding: 70px 80px;
     
 }
@@ -206,11 +206,11 @@ line-height: 170.02%;
 
 text-align: center;
 
-color: #319E48;
+color: #E2C305;
 }
 
 .review{
-    background: #023A15;
+    background: #E2C305;
 }
 .review-content{
     display: flex;
@@ -333,7 +333,7 @@ color: #567C49;
 
 .our-store{
     /* padding-block: 10%; */
-    background: rgba(2, 58, 21, 0.7);
+    background: rgba(226 195 5 / 71%);
 }
 .our-store-content{
     height: 100%;
@@ -373,7 +373,7 @@ width: 90%;
 
 .available-at{
     padding-block: 10%;
-    background: #023A15;
+    background: #E2C305;
 }
 .available-heading h4{
     font-family: 'Cormorant';
@@ -428,7 +428,7 @@ margin-inline: auto;
 }
 .blog-box{
     padding: 35px;
-    background: #023A15;
+    background: #E2C305;
 }
 .blog-box p{
     font-family: 'Cormorant';
@@ -450,7 +450,7 @@ line-height: 170.02%;
 text-align: right;
 color: #FFFFFF;
 padding-bottom: 5px;
-border-bottom: 2px solid #319E48;
+border-bottom: 2px solid #E2C305;;
 }
 .blog-box span img{
     margin-left: 5px;
